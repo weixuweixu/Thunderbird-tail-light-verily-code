@@ -3,7 +3,9 @@
 Two phase clock format: clka, clkb
 
 Function:
-RESTART: Resets the PLA to the idle state where no lamps are illuminated,
+RESTART: 
+
+Resets the PLA to the idle state where no lamps are illuminated,
 
 BRAKE: All six lamps are on while this signal is high. If LEFT or RIGHT are also high, then keep one side of car’s lights steady, but sequence the other side as described under LEFT and RIGHT below.
 
